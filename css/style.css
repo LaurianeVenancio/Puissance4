@@ -1,0 +1,23 @@
+body{
+    text-align: center;
+}
+
+#game{
+    display: inline-block;
+    text-align: center;
+    background-color: dodgerblue;
+}
+tr{
+    background-color: #fffee2;
+}
+td{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+td:empty{
+    cursor: pointer;
+}
+#score{
+    padding: 20px;
+}
